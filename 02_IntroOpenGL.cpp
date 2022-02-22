@@ -178,23 +178,26 @@ void keyboardCallback(GLFWwindow* window) {
 	}
 
 	// User defined
-	if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) {
+	if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) // Cyan
+	{
 		bgR = 0.0f;
 		bgG = 1.0f;
 		bgB = 1.0f;
-		bgA = 1.0f;
+		// bgA = 1.0f;
 	}
-	if (glfwGetKey(window, GLFW_KEY_Y) == GLFW_PRESS) {
+	if (glfwGetKey(window, GLFW_KEY_Y) == GLFW_PRESS) // Amarillo
+	{
 		bgR = 1.0f;
 		bgG = 1.0f;
 		bgB = 0.0f;
-		bgA = 1.0f;
+		// bgA = 1.0f;
 	}
-	if (glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS) {
+	if (glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS) // Magenta
+	{
 		bgR = 1.0f;
 		bgG = 0.0f;
 		bgB = 1.0f;
-		bgA = 1.0f;
+		// bgA = 1.0f;
 	}
 
 	// Arrows
